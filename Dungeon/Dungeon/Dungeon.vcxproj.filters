@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextureLoader">
+      <UniqueIdentifier>{6cb79334-8a46-4184-a9fd-faf9aadb6d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11">
+      <UniqueIdentifier>{21395b63-5fb5-4ebb-9d54-74f111527f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11Font">
+      <UniqueIdentifier>{5e87729b-cbd8-4155-9743-015bb6ac0170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IGameScene">
+      <UniqueIdentifier>{a504ab01-808c-4dd3-a15e-86dbb70b847e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Selector">
+      <UniqueIdentifier>{f0b2ca31-6558-49cc-94fa-9d8e88ffe5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage">
+      <UniqueIdentifier>{8f794c5f-3ae9-4e80-825f-843168316f3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ddsfunctions.h">
+      <Filter>TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="tgafunctions.h">
+      <Filter>TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11Font.h">
+      <Filter>DirectX11Font</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX11.h">
+      <Filter>DirectX11</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameScene.h">
+      <Filter>IGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="IDeviceDependentObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive3DShadow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderableTexture2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonFT4.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="tgafunctions.cpp">
+      <Filter>TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ddsfunctions.cpp">
+      <Filter>TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11.cpp">
+      <Filter>DirectX11</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX11Font.cpp">
+      <Filter>DirectX11Font</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameScene.cpp">
+      <Filter>IGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>Selector</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="IDeviceDependentObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive3DShadow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderableTexture2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonFT4.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Dungeon.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Dungeon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
